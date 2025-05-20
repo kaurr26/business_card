@@ -5,6 +5,7 @@ body {
 
 .avatar {
    width : 200px;
+   margin-bottom: 15px;
 }
 
 
@@ -21,13 +22,16 @@ body {
    display: flex;
    flex-wrap: wrap; 
    justify-content: space-around;
-   width: 500;
+   width: 500px;
+   width: 90%;
    text-align: center;
    background: #f5eef8;
    color: darkslategrey;
    font-family: "Gowun Batang", serif;
    border-bottom: 20px solid #884ea0;
    margin: auto;
+   justify-content: center;
+   align-items: center;
    
 
 
