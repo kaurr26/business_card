@@ -1,46 +1,25 @@
 body {
-  margin: 40px;
-  font-family: "Gowun Batang", serif;
-  background-color: #fdfdfd;
-}
+   margin : 40px;
 
-.card {
-  padding: 20px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 500px;
-  width: 90%;
-  text-align: center;
-  background: #f5eef8;
-  color: darkslategrey;
-  border-bottom: 20px solid #884ea0;
-  margin: auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  gap: 15px;
 }
 
 .avatar {
-  width: 200px;
-  border-radius: 50%;
-  object-fit: cover;
+   width : 200px;
+   border-radius: 20px;
 }
 
-.info {
-  text-align: center;
-}
+.card {
+   
+   padding: 20px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: space-around;
+   width: 500;
+   text-align: center;
+   background: #f5eef8;
+   color: darkslategrey;
+   font-family: "Gowun Batang", serif;
+   border-bottom: 20px solid #884ea0;
+   margin: auto;
 
-/* Mobile responsive adjustments */
-@media (max-width: 600px) {
-  .card {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .avatar {
-    width: 150px;
-    margin-bottom: 15px;
-  }
 }
